@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们 | 肠道微生态智能服务平台</title>
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="平台标识">
+        <span>
+          <div class="brand-name">肠道微生态智能服务平台</div>
+          <div class="brand-sub">MicroEco AI Platform</div>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+      <nav class="nav-links">
+        <a href="index.html" data-page="home">首页</a>
+        <a href="about.html" data-page="about">关于我们</a>
+        <a href="capabilities.html" data-page="capabilities">核心能力</a>
+        <a href="services.html" data-page="services">服务方案</a>
+        <a href="technology.html" data-page="technology">技术与数据</a>
+        <a href="partnerships.html" data-page="partnerships">合作伙伴</a>
+        <a href="news.html" data-page="news">新闻洞察</a>
+        <a href="contact.html" data-page="contact" class="nav-cta">联系我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow" style="color:#5eead4">Contact Us</div>
+      <h1>项目咨询入口</h1>
+      <p>告诉我们样本类型、研究问题或产品目标，顾问将在 2 个工作日内回复。涉及人体样本需具备伦理与知情同意基础。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="info-list">
+        <div class="info-item"><h3>商务与项目</h3><p>contact@microeco-ai.cn</p><p>400-880-0168</p></div>
+        <div class="info-item"><h3>合作网络</h3><p>partnership@microeco-ai.cn</p></div>
+        <div class="info-item"><h3>办公地址</h3><p>上海市浦东新区张江科学城（示意地址）</p><p>工作日 09:00–18:00</p></div>
+        <div class="info-item"><h3>来访提示</h3><p>实验室区域需预约。请携带机构介绍信或项目纪要。</p></div>
+      </div>
+      <form class="form" data-fake>
+        <div class="form-row">
+          <div><label>姓名</label><input name="name" required></div>
+          <div><label>机构</label><input name="org" required></div>
+        </div>
+        <div class="form-row">
+          <div><label>角色</label>
+            <select name="role">
+              <option>临床</option>
+              <option>科研</option>
+              <option>企业</option>
+              <option>大健康</option>
+            </select>
+          </div>
+          <div><label>电话</label><input name="phone" required></div>
+        </div>
+        <div><label>邮箱</label><input type="email" name="email" required></div>
+        <div><label>咨询内容</label><textarea name="msg" required placeholder="例如：300 例队列宏基因组分析 + 标志物筛选，期望 8 周内交付"></textarea></div>
+        <button class="btn btn-primary" type="submit">提交咨询</button>
+        <p class="form-note">当前为前端演示表单。正式部署时可接入邮件网关或 CMS。</p>
+      </form>
+    </div>
+  </section>
+
+  <div class="toast" id="toast"></div>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>肠道微生态智能服务平台</h4><p>专业、克制、可核验的行业门户。</p></div>
+      <div><h4>导航</h4><a href="index.html">首页</a><a href="about.html">关于我们</a></div>
+      <div><h4>服务</h4><a href="services.html">解决方案</a><a href="partnerships.html">合作伙伴</a></div>
+      <div><h4>联系</h4><p>contact@microeco-ai.cn</p></div>
+    </div>
+    <div class="container copy">© 2026 肠道微生态智能服务平台</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

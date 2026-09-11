@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>肠道微生态智能服务平台 | 首页</title>
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="平台标识">
+        <span>
+          <div class="brand-name">肠道微生态智能服务平台</div>
+          <div class="brand-sub">MicroEco AI Platform</div>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+      <nav class="nav-links">
+        <a href="index.html" data-page="home">首页</a>
+        <a href="about.html" data-page="about">关于我们</a>
+        <a href="capabilities.html" data-page="capabilities">核心能力</a>
+        <a href="services.html" data-page="services">服务方案</a>
+        <a href="technology.html" data-page="technology">技术与数据</a>
+        <a href="partnerships.html" data-page="partnerships">合作伙伴</a>
+        <a href="news.html" data-page="news">新闻洞察</a>
+        <a href="contact.html" data-page="contact" class="nav-cta">联系我们</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow" style="color:#5eead4">生命科学 × 人工智能</div>
+        <h1>全球领先的微生态人工智能大数据综合服务平台</h1>
+        <p>整合海量肠道宏基因组数据，以微生物 AI 大模型为核心，提供从测序分析到产业拓展的全链条服务。面向临床、科研、生物医药与大健康机构，把复杂菌群数据变成可决策的洞察。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="services.html">查看解决方案</a>
+          <a class="btn btn-ghost" href="contact.html">预约项目咨询</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="orbit">
+          <div class="orbit-core">AI</div>
+          <div class="orbit-ring r1">
+            <div class="node">宏基因组</div>
+            <div class="node">知识图谱</div>
+          </div>
+          <div class="orbit-ring r2">
+            <div class="node">测序分析</div>
+            <div class="node">智能体</div>
+            <div class="node">产业拓展</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container stats">
+    <div class="stat-card reveal"><b data-count="50000" data-suffix="+">0</b><span>人类肠道宏基因组全长数据</span></div>
+    <div class="stat-card reveal"><b data-count="20" data-suffix="+">0</b><span>覆盖合作机构与临床中心</span></div>
+    <div class="stat-card reveal"><b data-count="6">0</b><span>套标准化生信分析管线</span></div>
+    <div class="stat-card reveal"><b data-count="48" data-suffix="h">0</b><span>常规项目启动响应周期</span></div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="eyebrow">服务概览</div>
+      <h2>从测序交付，升级为智能基础设施</h2>
+      <p class="lead">平台以五层能力闭环支撑核心服务，让每一次样本分析都能沉淀为可复用的模型、知识和产业资产。</p>
+      <div class="cards-5" style="margin-top:28px">
+        <article class="card reveal"><div class="icon">01</div><h3>测序分析</h3><p>样本接收、文库构建、长/短读长测序与多级质控，形成可审计数据底座。</p></article>
+        <article class="card reveal"><div class="icon">02</div><h3>AI 建模</h3><p>微生物大模型与图神经网络，完成物种、功能、表型的关联建模。</p></article>
+        <article class="card reveal"><div class="icon">03</div><h3>知识图谱</h3><p>菌株、通路、疾病与干预措施互联，支撑检索、推理与配方推荐。</p></article>
+        <article class="card reveal"><div class="icon">04</div><h3>成果交付</h3><p>检测报告、筛查模型、科研结果包与可视化看板，标准可复用。</p></article>
+        <article class="card reveal"><div class="icon">05</div><h3>产业拓展</h3><p>连接益生菌、功能食品与精准营养，把科研结论转化为产品方案。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container cards-2">
+      <div>
+        <div class="eyebrow">愿景与价值主张</div>
+        <h2>AI 智能体 + 知识引擎 + 产业基础设施</h2>
+        <p class="lead">我们不再止于一份测序报告，而是为机构构建可持续运行的微生态智能能力：数据可累积、模型可迭代、知识可调用、成果可产业转化。</p>
+        <a class="btn btn-primary" href="about.html">了解平台架构</a>
+      </div>
+      <div class="chart-box" id="homeChart"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="eyebrow">行业应用入口</div>
+      <h2>为四类核心用户提供针对性方案</h2>
+      <div class="cards-4" style="margin-top:28px">
+        <a class="card" href="services.html#clinical"><div class="icon">临</div><h3>临床医疗机构</h3><p>疾病风险预测、筛查辅助与个体化菌群解读，服务精准医疗路径。</p></a>
+        <a class="card" href="services.html#research"><div class="icon">科</div><h3>科研与高校</h3><p>队列数据挖掘、标志物发现与论文级结果交付，缩短研究周期。</p></a>
+        <a class="card" href="services.html#pharma"><div class="icon">企</div><h3>生物医药企业</h3><p>益生菌配方、菌株功能评价与管线决策支持，降低研发试错成本。</p></a>
+        <a class="card" href="services.html#health"><div class="icon">健</div><h3>大健康机构</h3><p>体检套餐升级、功能食品验证与精准营养方案，连接C端服务。</p></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>肠道微生态智能服务平台</h4>
+        <p>全球领先的微生态人工智能大数据综合服务平台，服务临床、科研、企业与大健康产业。</p>
+      </div>
+      <div><h4>导航</h4><a href="about.html">关于我们</a><a href="capabilities.html">核心能力</a><a href="technology.html">技术与数据</a></div>
+      <div><h4>服务</h4><a href="services.html">解决方案</a><a href="partnerships.html">合作伙伴</a><a href="news.html">新闻洞察</a></div>
+      <div><h4>联系</h4><a href="contact.html">项目咨询</a><p>contact@microeco-ai.cn</p><p>400-880-0168</p></div>
+    </div>
+    <div class="container copy">© 2026 肠道微生态智能服务平台. 仅用于品牌展示，内容含示意数据。</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
